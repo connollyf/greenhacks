@@ -1,0 +1,26 @@
+{
+  "name": "greenhacks",
+  "version": "1.0.0",
+  "description": "greenhacks website",
+  "main": "index.js",
+  "scripts": {
+    "build": "lessc ./src/index.less ./dist/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connollyf/greenhacks.git"
+  },
+  "keywords": [
+    "hackathon",
+    "sustainability"
+  ],
+  "author": "connollyf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connollyf/greenhacks/issues"
+  },
+  "homepage": "https://github.com/connollyf/greenhacks#readme",
+  "dependencies": {
+    "less": "^3.10.3"
+  }
+}

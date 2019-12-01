@@ -48,47 +48,26 @@ button.btn-how-register {
   text-align: center;
   padding: 50px;
 }
-.splash-btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-}
-.about {
-  margin-top: 150px;
-}
-.about-btn-container {
+.contact {
+  color: white;
   margin-top: 50px;
 }
-.about-title {
-  margin-bottom: 50px;
-}
-.about-title:before {
-  content: '';
-  display: block;
+.social-link {
+  font-size: 72px;
+  color: white;
+  border: 5px solid white;
+  text-align: center;
+  height: 150px;
   width: 150px;
-  height: 2px;
-  background: black;
-  position: absolute;
-  top: 75px;
+  margin-bottom: 15px;
 }
-.faq {
+.social-link:hover {
+  border: 5px solid #54975b;
+  color: #54975b;
+}
+.social-link > i {
+  margin-top: 30px;
+}
+.contact-btns {
   margin-top: 50px;
-}
-.faq-title:before {
-  content: '';
-  display: block;
-  width: 150px;
-  height: 2px;
-  background: black;
-  position: absolute;
-  top: 35px;
-}
-.answer-lg {
-  margin-bottom: 30px;
-}
-.leaves-1 {
-  position: absolute;
-  left: -170px;
-  transform: rotate(90deg) scale(2.5);
 }

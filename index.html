@@ -7,6 +7,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./dist/index.css" />
   <title>Greenhacks</title>
 </head>
@@ -50,10 +51,10 @@
         </div>
     </div>
   </div>
-  <div class="container">
-    <div class="row">
+  <div class="container overflow-x-hidden">
+    <div class="row overflow-x-hidden">
       <div class="col-sm-8 offset-sm-2">
-        <div class="section about">
+        <div class="section about" data-aos="fade-up">
           <img src="./dist/leaves.svg" class="leaves-1"/>
           <h2 class="about-title ">About</h2>
             <p>
@@ -81,20 +82,21 @@
       <div class="w-100"></div>
       <!-- line break -->
       <div class="col-sm-8 offset-sm-2">
-        <div class="about-btn-container d-flex justify-content-around">
-          <button type="button" class="btn btn-dark">Participate</button>
-          <button type="button" class="btn btn-dark">Sponsor</button>
-          <button type="button" class="btn btn-dark">Our Team</button>
+        <div class="about-btn-container d-flex justify-content-around flex-wrap">
+          <button type="button" class="btn btn-dark about-btn">Participate</button>
+          <button type="button" class="btn btn-dark about-btn">Sponsor</button>
+          <button type="button" class="btn btn-dark about-btn">Our Team</button>
         </div>
       </div>
     </div>
     <div class="row col-sm-8 offset-sm-2">
-      <div class="faq ">
+      <div class="faq " data-aos="fade-up">
         <h2 class="faq-title">
           Frequently <br />
           Asked <br />
           Questions <br />
         </h2>
+        <img src="./dist/leaves.svg" class="leaves-2"/>
         <h3 class="question">
           What is a Sustainability Hackathon?
         </h3>
@@ -102,7 +104,8 @@
           While a “hackathon” was originally used to refer to a collaborative computer programming event, a Sustainability Hackathon will focus on gathering creative and motivated people from diverse backgrounds to design interesting solutions for sustainable development. Students will form teams in order to address specific sustainability challenges and will be judged on the creativity, feasibility, and impact of their ideas. We emphasize that participants can come from all areas of expertise, and solutions can come in any form ranging from well-thought out business proposals, mobile applications, to hardware prototypes, and so on.
         </div>
         <div class="row">
-          <div class="col-4">
+
+          <div class="col-md-4">
             <h3 class="question">
               Who?
             </h3>
@@ -110,7 +113,7 @@
               Open to students of ALL backgrounds and skills from the Homewood campus, Bloomberg School of Public Health, Carey Business School, MICA, and other Hopkins-affiliated schools. You may register as a team or individually.
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-md-4">
             <h3 class="question">
               When & Where?
             </h3>
@@ -119,13 +122,13 @@
               Hosted at Fast Forward U
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-md-4">
             <h3 class="question">
               How?
             </h3>
             <div class="answer">
               Participate in the Spring 2019 Pilot hackathon as a team or as an individual
-              <button class="btn btn-dark btn-how-register"> Register Now!</button>
+              <button class="btn btn-dark btn-how-register d-block"> Register Now!</button>
             </div>
           </div>
         </div>
@@ -155,5 +158,11 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- init Animations -->
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 </html>

@@ -21,6 +21,9 @@
   &-btn-container {
     margin-top: 50px;
   }
+  &-btn {
+    margin-bottom: 10px;
+  }
 }
 
 .about-title {
@@ -38,6 +41,7 @@
 
 .faq {
   margin-top: 50px;
+  margin-bottom: 50px;
 
   &-title {
     &:before{
@@ -47,7 +51,7 @@
       height: 2px;
       background: black;
       position: absolute;
-      top: 35px;
+      top: -25px;
     }
   }
 }
@@ -59,9 +63,20 @@
   }
 }
 
-.leaves-1 {
-  position: absolute;
-  left: -170px;
-  transform: rotate(90deg) scale(2.5);
+.leaves {
+  &-1 {
+    position: absolute;
+    left: -200px;
+    transform: rotate(90deg) scale(2.5);
+  }
+  &-2 {
+    position: absolute;
+    right: -200px;
+    top: -80px;
+    transform: rotate(180deg) scale(1.5);
+  }
+}
 
+.overflow-x-hidden {
+  overflow: hidden;
 }

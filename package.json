@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/connollyf/greenhacks#readme",
   "dependencies": {
+    "aos": "^2.3.4",
     "less": "^3.10.3"
   }
 }

@@ -4,7 +4,7 @@
   "description": "greenhacks website",
   "main": "index.js",
   "scripts": {
-    "build": "lessc ./src/index.less ./dist/index.css && lessc ./src/contact.less ./dist/contact.css"
+    "build": "lessc ./src/index.less ./dist/index.css && lessc ./src/contact.less ./dist/contact.css && lessc ./src/sponsors.less ./dist/sponsors.css && lessc ./src/registration.less ./dist/registration.css"
   },
   "repository": {
     "type": "git",

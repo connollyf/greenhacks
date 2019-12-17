@@ -59,26 +59,20 @@ h6 {
   text-align: center;
   padding: 50px;
 }
-.contact {
+.sponsors-title {
   color: white;
-  margin-top: 50px;
-}
-.social-link {
+  font-family: 'Comfortaa', cursive;
+  margin: 25px 5px;
   font-size: 72px;
+}
+.sponsor-pic {
+  height: 200px;
+  width: 200px;
+  margin: 10px 15px;
+}
+.sponsors-blurb {
   color: white;
-  border: 5px solid white;
-  text-align: center;
-  height: 150px;
-  width: 150px;
-  margin-bottom: 15px;
 }
-.social-link:hover {
-  border: 5px solid #54975b;
-  color: #54975b;
-}
-.social-link > i {
-  margin-top: 30px;
-}
-.contact-btns {
-  margin-top: 50px;
+.sponsors-container {
+  margin-bottom: 20px;
 }

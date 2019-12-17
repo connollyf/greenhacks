@@ -5,12 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <script src="https://kit.fontawesome.com/1eb965a31c.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto&display=swap" rel="stylesheet">
 
+
+  <script src="https://kit.fontawesome.com/1eb965a31c.js" crossorigin="anonymous"></script>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="./dist/contact.css" />
+  <link rel="stylesheet" href="./dist/registration.css" />
 
   <title>Greenhacks</title>
 </head>
@@ -35,57 +37,102 @@
           <a class="nav-link" href="#team">Our Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#sponsors">Sponsors</a>
+          <a class="nav-link" href="/sponsors.html">Sponsors</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us </a>
+          <a class="nav-link" href="/contact.html">Contact Us </a>
         </li>
       </ul>
     </div>
   </nav>
   <div class="container-fluid ">
+    <div class="row parallax parallax-fractal">
+      <div class="col-md-10 offset-md-1">
+        <h3 class="registration-title">Registration for GreenHacks 2020 is opening soon!</h3>
+        <p class="registration-blurb">
+          Stay tuned for more information coming soon by following us on <a href="./contact.html">social media</a>
+        </p>
+        <div class="participation-pic-container d-flex justify-content-around flex-wrap">
+          <img class="participation-pic img-responsive img-thumbnail" src="./dist/proftalking.jpg"/>
+          <img class="participation-pic img-responsive img-thumbnail" src="./dist/eboard.jpg"/>
+          <img class="participation-pic img-responsive img-thumbnail" src="./dist/tabletalk.jpg"/>
+
+        </div>
+
+      </div>
+    </div>
     <div class="row">
-      <div class="col-md-8 offset-md-2 register">
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfnMzRTxSBUDicL2kWapkJyWBQciEUd8DB7i_edWpkzQUjkrQ/formResponse"
+      <div class="col-md-6 offset-md-3 register">
+        <h3 class="form-title">Registration</h3>
+        <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSfjLJK4mlSc8PlxI2dnLkjqob90rDChzgEfkrIKbov-GBELUg/formResponse"
         method="POST"
         target="_self">
 
         <div class="form-group">
-          <label class="form-" for="emailAddress">Email</label>
+          <label class="" for="emailAddress">Email</label>
           <input type="email" class="form-control" autocomplete="email" tabindex="0" aria-label="Your email" name="emailAddress" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="">
         </div>
         <div class="form-group">
           <label for="entry.1474794620">Name</label>
-          <input type="text" class="form-control" required="" autocomplete="off" tabindex="0" aria-label="Name"  name="entry.1474794620" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
+          <input type="text" class="form-control" required="" autocomplete="off" tabindex="0" aria-label="Name"  name="entry.540408734" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
         </div>
         <div class="form-group">
           <label for="entry.1094386810">University</label>
-          <input type="text" class="form-control" required="" autocomplete="off" tabindex="0" aria-label="University" name="entry.1094386810" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
+          <input type="text" class="form-control" required="" autocomplete="off" tabindex="0" aria-label="University" name="entry.1816473689" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
         </div>
         <div class="form-group">
-          <label for="entry.1712645063">Dietary Restrictions</label>
-          <select name="entry.1712645063" >
-            <option value="Vegetarian">
-              Vegetarian
-            </option>
-            <option value="Vegan">
-              Vegan
-            </option>
-            <option value="Kosher">
-              Kosher
-            </option>
-            <option value="Gluten-free">
-              Gluten-free
-            </option>
-            <option value="Halal">
-              Halal
-            </option>
-            <option value="None">
-              None
-            </option>
-          </select>
+          <label for="entry.513376000">Major</label>
+          <input type="text" class="form-control" required="" autocomplete="off" tabindex="0" aria-label="Name"  name="entry.513376000" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
         </div>
-        <input type="submit" class="btn btn-success"/>
+        <div class="form-row">
+          <div class="form-group col-sm-6">
+            <label for="entry.1712645063">Dietary Restrictions</label>
+            <select class="form-control" name="entry.1236528233" >
+              <option value="Vegetarian">
+                Vegetarian
+              </option>
+              <option value="Vegan">
+                Vegan
+              </option>
+              <option value="Kosher">
+                Kosher
+              </option>
+              <option value="Gluten-free">
+                Gluten-free
+              </option>
+              <option value="Halal">
+                Halal
+              </option>
+              <option value="None">
+                None
+              </option>
+            </select>
+          </div>
+          <div class="form-group col-sm-6">
+            <label for="entry.1712645063">T-Shirt Size</label>
+            <select class="form-control" name="entry.954844039" >
+              <option value="XS">
+                XS
+              </option>
+              <option value="S">
+                S
+              </option>
+              <option value="M">
+                M
+              </option>
+              <option value="L">
+                L
+              </option>
+              <option value="XL">
+                XL
+              </option>
+              <option value="XXL">
+                XXL
+              </option>
+            </select>
+          </div>
+        </div>
+        <button disabled type="submit" class="btn btn-success">Submit</button>
         </form>
       </div>
     </div>

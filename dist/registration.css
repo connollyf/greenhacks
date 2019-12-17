@@ -59,26 +59,22 @@ h6 {
   text-align: center;
   padding: 50px;
 }
-.contact {
-  color: white;
-  margin-top: 50px;
+.participation-pic {
+  height: 250px;
+  margin: 10px;
 }
-.social-link {
-  font-size: 72px;
-  color: white;
-  border: 5px solid white;
-  text-align: center;
-  height: 150px;
-  width: 150px;
+.participation-pic-container {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.register {
+  padding: 30px 0px;
+}
+.registration-title {
+  margin-top: 15px;
   margin-bottom: 15px;
+  color: white;
 }
-.social-link:hover {
-  border: 5px solid #54975b;
-  color: #54975b;
-}
-.social-link > i {
-  margin-top: 30px;
-}
-.contact-btns {
-  margin-top: 50px;
+.registration-blurb {
+  color: white;
 }

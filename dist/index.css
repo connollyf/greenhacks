@@ -1,14 +1,25 @@
-button.btn {
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Comfortaa', cursive;
+}
+.btn {
   border-radius: 0;
   background-color: black;
   color: white;
   border: 3px solid black;
 }
-button.btn:hover {
+.btn:hover {
   background-color: transparent;
   color: black;
 }
-button.btn-how-register {
+.btn-how-register {
   margin-top: 5px;
 }
 .parallax {
@@ -48,8 +59,10 @@ button.btn-how-register {
   text-align: center;
   padding: 50px;
 }
+.splash {
+  text-align: center;
+}
 .splash-btn {
-  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;

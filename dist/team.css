@@ -1,0 +1,78 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Comfortaa', cursive;
+}
+.btn {
+  border-radius: 0;
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+}
+.btn:hover {
+  background-color: transparent;
+  color: black;
+}
+.btn-how-register {
+  margin-top: 5px;
+}
+.parallax {
+  /* Set a specific height */
+  min-height: 100vh;
+  width: 100vw;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-splash {
+  /* The image used */
+  background-image: url("alpine-background.jpg");
+}
+.parallax-fractal {
+  background-image: url("fractal.jpg");
+}
+.gh-logo {
+  height: 67px;
+  max-width: 75vw;
+}
+.gh-splash {
+  display: block;
+  margin-top: 150px;
+  width: 772px;
+  height: auto;
+  max-width: 90vw;
+}
+.gh-footer {
+  display: block;
+  width: 200px;
+}
+.footer {
+  background-color: #a0a09f;
+  text-align: center;
+  padding: 50px;
+}
+.team-title {
+  color: white;
+  margin-top: 15px;
+}
+.person-name {
+  color: white;
+  font-size: 16pt;
+  margin-top: 5px;
+  text-align: center;
+}
+.person-pic {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}

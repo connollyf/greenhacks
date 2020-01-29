@@ -101,6 +101,9 @@ h6 {
   position: absolute;
   top: -25px;
 }
+.answer {
+  margin-bottom: 10px;
+}
 .answer-lg {
   margin-bottom: 30px;
 }

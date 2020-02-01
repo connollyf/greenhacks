@@ -9,7 +9,8 @@
 
 .person {
   &-container {
-
+    position: relative;
+    margin-bottom: 15px;
   }
   &-name {
     color: white;
@@ -18,10 +19,41 @@
     text-align: center;
   }
   &-pic {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border-radius: 2px;
+    border: 1px solid white;
   }
+
+  &-overlay {
+    position: absolute;
+
+    width: calc(100% - 30px);
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 2px;
+
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: .5s ease;
+    background-color: @ghgreen;
+    opacity: 0;
+
+    color: white;
+
+  }
+  &-container:hover .person-overlay {
+    opacity: 0.9;
+  }
+
+}
+
+.committee-title {
+  color: white;
 }

@@ -34,7 +34,7 @@ h6 {
 }
 .parallax-splash {
   /* The image used */
-  background-image: url("alpine-background.jpg");
+  background-image: url("alpine-background.jpeg");
 }
 .parallax-fractal {
   background-image: url("fractal.jpg");
@@ -99,13 +99,14 @@ h6 {
   height: 2px;
   background: black;
   position: absolute;
+  font-weight: 600;
   top: -25px;
-}
-.answer {
-  margin-bottom: 10px;
 }
 .answer-lg {
   margin-bottom: 30px;
+}
+.question {
+  margin-top: 15px;
 }
 .leaves-1 {
   position: absolute;

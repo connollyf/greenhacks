@@ -34,7 +34,7 @@ h6 {
 }
 .parallax-splash {
   /* The image used */
-  background-image: url("alpine-background.jpg");
+  background-image: url("alpine-background.jpeg");
 }
 .parallax-fractal {
   background-image: url("fractal.jpg");
@@ -77,4 +77,41 @@ h6 {
 }
 .registration-blurb {
   color: white;
+}
+:focus,
+.form-control:focus {
+  outline: none;
+}
+.form-input {
+  width: 100%;
+  border: 0;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+}
+.effect ~ .focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #54975b;
+  transition: 0.4s;
+}
+.effect:focus ~ .focus-border {
+  width: 100%;
+  transition: 0.4s;
+}
+.form-group {
+  position: relative;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+label {
+  color: #333;
 }

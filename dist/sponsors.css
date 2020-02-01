@@ -34,7 +34,7 @@ h6 {
 }
 .parallax-splash {
   /* The image used */
-  background-image: url("alpine-background.jpg");
+  background-image: url("alpine-background.jpeg");
 }
 .parallax-fractal {
   background-image: url("fractal.jpg");
@@ -59,20 +59,49 @@ h6 {
   text-align: center;
   padding: 50px;
 }
-.sponsors-title {
+.sponsor-title {
   color: white;
   font-family: 'Comfortaa', cursive;
   margin: 25px 5px;
   font-size: 72px;
 }
-.sponsor-pic {
-  height: 200px;
-  width: 200px;
-  margin: 10px 15px;
-}
-.sponsors-blurb {
+.sponsor-blurb {
   color: white;
 }
-.sponsors-container {
+.sponsor-container {
   margin-bottom: 20px;
+  position: relative;
+}
+.sponsor-overlay {
+  position: absolute;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 2px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: 0.5s ease;
+  background-color: #54975b;
+  opacity: 0;
+  color: white;
+}
+.sponsor-container:hover .sponsor-overlay {
+  opacity: 0.9;
+}
+.sponsor-pic {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 2px;
+  border: 1px solid white;
+}
+.sponsor-name {
+  color: white;
+  font-size: 16pt;
+  margin-top: 5px;
+  text-align: center;
 }

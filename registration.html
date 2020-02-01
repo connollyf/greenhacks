@@ -45,7 +45,7 @@
       </ul>
     </div>
   </nav>
-  <div class="container-fluid ">
+  <!-- <div class="container-fluid ">
     <div class="row parallax parallax-fractal">
       <div class="col-md-10 offset-md-1">
         <h3 class="registration-title">Registration for GreenHacks 2020 is opening soon!</h3>
@@ -60,34 +60,53 @@
         </div>
 
       </div>
-    </div>
+    </div> -->
     <div class="row">
       <div class="col-10 offset-1 col-md-6 offset-md-3 register">
         <h3 class="form-title">Registration</h3>
         <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSfjLJK4mlSc8PlxI2dnLkjqob90rDChzgEfkrIKbov-GBELUg/formResponse"
         method="POST"
         target="_self">
+        <div class="form-row">
+          <div class="form-group col-sm-6">
+            <label class="sr-only" for="entry.540408734">First Name</label>
+            <input type="text" class="form-input effect effect" placeholder="First Name" required="" autocomplete="off" tabindex="0" aria-label="First Name"  name="entry.540408734" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
+            <span class="focus-border"></span>
+          </div>
+          <div class="form-group col-sm-6">
+            <label class="sr-only" for="entry.1578846529">Last Name</label>
+            <input type="text" class="form-input effect" placeholder="Last Name" required="" autocomplete="off" tabindex="0" aria-label="Last Name"  name="entry.1578846529" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
+            <span class="focus-border"></span>
+          </div>
+        </div>
 
         <div class="form-group">
-          <label class="" for="emailAddress">Email</label>
-          <input type="email" class="form-control" autocomplete="email" tabindex="0" aria-label="Your email" name="emailAddress" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="">
+          <label class="sr-only" class="" for="emailAddress">Email</label>
+          <input type="email" class="form-input effect" placeholder="Email Address" autocomplete="email" tabindex="0" aria-label="Your email" name="emailAddress" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="">
+          <span class="focus-border"></span>
         </div>
         <div class="form-group">
-          <label for="entry.1474794620">Name</label>
-          <input type="text" class="form-control" required="" autocomplete="off" tabindex="0" aria-label="Name"  name="entry.540408734" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
+          <label class="sr-only" for="entry.1512175428">Phone Number</label>
+          <input type="tel" class="form-input effect" placeholder="Phone Number" autocomplete="email" tabindex="0" aria-label="Your phone number" name="entry.1512175428" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="">
+          <span class="focus-border"></span>
         </div>
         <div class="form-group">
-          <label for="entry.1094386810">University</label>
-          <input type="text" class="form-control" required="" autocomplete="off" tabindex="0" aria-label="University" name="entry.1816473689" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
+          <label class="sr-only" for="entry.1816473689">University Affiliation</label>
+          <input type="text" class="form-input effect" required="" placeholder="University Affiliation" autocomplete="off" tabindex="0" aria-label="University" name="entry.1816473689" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
+          <span class="focus-border"></span>
         </div>
         <div class="form-group">
-          <label for="entry.513376000">Major</label>
-          <input type="text" class="form-control" required="" autocomplete="off" tabindex="0" aria-label="Name"  name="entry.513376000" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
+          <label class="sr-only" for="entry.513376000">Major(s) and Minor(s)</label>
+          <input type="text" class="form-input effect" required="" placeholder="Major(s) and Minor(s)" autocomplete="off" tabindex="0" aria-label="Name"  name="entry.513376000" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
+          <span class="focus-border"></span>
         </div>
         <div class="form-row">
           <div class="form-group col-sm-6">
-            <label for="entry.1712645063">Dietary Restrictions</label>
-            <select class="form-control" name="entry.1236528233" >
+            <label class="sr-only" for="entry.1712645063">Dietary Restrictions</label>
+            <select class="form-input effect form-control" name="entry.1236528233" >
+              <option disabled selected value="">
+                Dietary Restrictions
+              </option>
               <option value="Vegetarian">
                 Vegetarian
               </option>
@@ -109,8 +128,11 @@
             </select>
           </div>
           <div class="form-group col-sm-6">
-            <label for="entry.1712645063">T-Shirt Size</label>
-            <select class="form-control" name="entry.954844039" >
+            <label class="sr-only" for="entry.1712645063">T-Shirt Size</label>
+            <select class="form-input form-control" name="entry.954844039" >
+              <option value="" disabled selected>
+                T-Shirt Size
+              </option>
               <option value="XS">
                 XS
               </option>
@@ -131,8 +153,13 @@
               </option>
             </select>
           </div>
+          <div class="form-group col-12">
+            <label class="sr-only" for="entry.1648901617">Resume/Portfolio Link</label>
+            <input type="text" class="form-input effect" placeholder="Resume/Portfolio Link" autocomplete="off" tabindex="0" aria-label="Name"  name="entry.1648901617" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
+            <span class="focus-border"></span>
+          </div>
         </div>
-        <button disabled type="submit" class="btn btn-success">Submit</button>
+        <button type="submit" class="btn btn-success">Submit</button>
         </form>
       </div>
     </div>

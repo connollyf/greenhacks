@@ -74,13 +74,21 @@ h6 {
   text-align: center;
 }
 .person-pic {
-  width: 100%;
+  width: 100px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   display: block;
   border-radius: 2px;
   border: 1px solid white;
+}
+@media only screen and (min-width: 600px) {
+  .person-pic {
+    width: 175px;
+  }
+}
+.person-col {
+  margin: 5px 15px;
 }
 .person-overlay {
   position: absolute;

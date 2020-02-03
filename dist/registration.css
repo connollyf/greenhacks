@@ -115,3 +115,6 @@ input[type="tel"] {
 label {
   color: #333;
 }
+#other {
+  display: none;
+}

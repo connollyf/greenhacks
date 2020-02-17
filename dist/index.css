@@ -76,6 +76,9 @@ h6 {
 .about-btn {
   margin-bottom: 10px;
 }
+.theme {
+  margin-top: 100px;
+}
 .about-title {
   margin-bottom: 50px;
 }
@@ -119,6 +122,16 @@ h6 {
   top: -80px;
   transform: rotate(180deg) scale(1.5);
 }
+.leaves-3 {
+  position: absolute;
+  left: -200px;
+  transform: rotate(270deg) scale(1.5);
+}
 .overflow-x-hidden {
   overflow: hidden;
+}
+.theme-logo {
+  height: 100px;
+  display: inline-block;
+  margin-left: 10px;
 }

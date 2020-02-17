@@ -109,6 +109,14 @@ h6 {
 .person-container:hover .person-overlay {
   opacity: 0.9;
 }
+.board-pic {
+  width: 300px;
+}
+@media only screen and (min-width: 600px) {
+  .board-pic {
+    width: 350px;
+  }
+}
 .committee-title {
   color: white;
 }

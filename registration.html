@@ -25,6 +25,14 @@
          document.getElementById('other').style.display='none';
       }
   }
+  function showOthersPronouns(val) {
+    console.log(val);
+      if (val === "Other") {
+         document.getElementById('other-pronouns').style.display='block';
+      } else {
+         document.getElementById('other-pronouns').style.display='none';
+      }
+  }
   </script>
 </head>
 <body>
@@ -79,16 +87,16 @@
     </div> -->
     <div class="row">
       <div class="col-10 offset-1 col-md-6 offset-md-3">
-        <h3 class="registration-title">Registration for GreenHacks 2020 is opening soon!</h3>
+        <h3 class="registration-title">Registration for GreenHacks 2020 is now open!</h3>
         <p>
-          The event will take place April 3-5 in Bloomberg on Johns Hopkins Homewood Campus.
+          The event will take place April 3-5 on The Johns Hopkins Homewood Campus.
         </p>
         <p>
-        We are excited to announce that the theme for this year’s hackathon will be Sustainable Cities. We emphasize that participants can come from all backgrounds, majors, and areas of expertise, and we welcome students from across the Johns Hopkins network to register, including those from the Hopkins Homewood campus, Bloomberg School of Public Health, the Carey Business School, and MICA. You can register as a team or as an individual and find a team when you arrive. Registration is open from Feb 13 - March 20.
+        We are excited to announce that the theme for this year’s hackathon will be Sustainable Cities. We emphasize that participants can come from all backgrounds, majors, and areas of expertise, and we welcome students from across the Johns Hopkins network to register, including those from the Hopkins Homewood campus, Bloomberg School of Public Health, the Carey Business School, and MICA. You can register as a team or as an individual and find a team when you arrive. Registration is open from March 2 - March 31.
         </p>
 
         <p>
-        Feel free to  <a href="mailto:greenhacksjhu@gmail.com">reach out to us</a> with any questions or concerns regarding registration.
+        Feel free to  <a href="mailto:greenhacksjhu@gmail.com">reach out to us</a> with any questions or concerns regarding registration. We will follow up with a confirmation email soon.
         </p>
         <p>
         We look forward to seeing you there!
@@ -177,9 +185,6 @@
               <option value="" disabled selected>
                 T-Shirt Size
               </option>
-              <option value="XS">
-                XS
-              </option>
               <option value="S">
                 S
               </option>
@@ -192,14 +197,39 @@
               <option value="XL">
                 XL
               </option>
-              <option value="XXL">
-                XXL
-              </option>
             </select>
           </div>
           <div class="form-group col-12">
+            <label class="sr-only" for="entry.50881073">Pronouns</label>
+            <select class="form-input effect form-control" name="entry.50881073" onchange="showOthersPronouns(this.options[this.selectedIndex].value)">
+              <option disabled selected value="">
+                Pronouns
+              </option>
+              <option value="He/Him">
+                He/Him
+              </option>
+              <option value="She/Her">
+                She/Her
+              </option>
+              <option value="They/Them">
+                They/Them
+              </option>
+              <option value="Prefer Not To Say">
+                Prefer Not To Say
+              </option>
+              <option value="Other">
+                Other
+              </option>
+            </select>
+          </div>
+          <div class="form-group col-12" id="other-pronouns">
+            <label class="sr-only" for="entry.1514387024">Other Pronouns</label>
+            <input type="text" class="form-input effect" placeholder="Other Pronouns" autocomplete="off" tabindex="0" aria-label="Name"  name="entry.891382305" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
+            <span class="focus-border"></span>
+          </div>
+          <div class="form-group col-12">
             <label class="sr-only" for="entry.1648901617">Resume/Portfolio Link</label>
-            <input type="text" class="form-input effect" placeholder="Resume/Portfolio Link" required="" autocomplete="off" tabindex="0" aria-label="Name"  name="entry.1648901617" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
+            <input type="text" class="form-input effect" title="Please provide a link via Google Drive, Dropbox, etc. to your resume/portfolio." placeholder="Resume/Portfolio Link" required="" autocomplete="off" tabindex="0" aria-label="Name"  name="entry.1648901617" value="" dir="auto" data-initial-dir="auto" data-initial-value="" aria-invalid="false">
             <span class="focus-border"></span>
           </div>
         </div>

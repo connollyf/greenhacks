@@ -127,6 +127,11 @@ h6 {
   left: -200px;
   transform: rotate(270deg) scale(1.5);
 }
+.leaves-4 {
+  position: absolute;
+  left: -150px;
+  transform: rotate(270deg) scale(0.75);
+}
 .overflow-x-hidden {
   overflow: hidden;
 }
